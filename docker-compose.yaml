@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    # image: bid-dev:latest
+    build: .
+    container_name: python_concurrency_app
+    restart: always
+    volumes:
+      - ./:/app
+    ports:
+      - 5011:5000
+    tty: true

@@ -1,0 +1,7 @@
+isort
+black
+pylint
+pydantic
+
+pytest
+pytest-mock
